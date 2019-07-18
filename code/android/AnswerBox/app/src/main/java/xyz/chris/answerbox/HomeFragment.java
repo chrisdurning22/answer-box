@@ -22,7 +22,6 @@ public class HomeFragment extends Fragment implements OnBackPressedListener {
     private BrowseAnswersCommunicator mFragmentCommunicator;
     private Spinner mSubjectSpinner;
     private Spinner mYearSpinner;
-    private Haha ha;
 
     private String mSubject;
     private String mYear;
@@ -41,9 +40,6 @@ public class HomeFragment extends Fragment implements OnBackPressedListener {
         mFragmentCommunicator = (BrowseAnswersCommunicator) getActivity();
         selectSubject();
         selectYear();
-
-        ha = new Haha();
-        ha.
 
         Button higherButton = (Button) getActivity().findViewById(R.id.higher_level_button);
         higherButton.setOnClickListener(new View.OnClickListener() {
