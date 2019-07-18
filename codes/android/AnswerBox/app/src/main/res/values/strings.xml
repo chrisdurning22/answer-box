@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Answer Box</string>
+
+    <!-- LoginActivity / RegisterActivity -->
+    <string name="action_sign_in">Sign in</string>
+    <string name="create_account">Don\'t have an account?</string>
+    <string name="label_confirm_password">Confirm password</string>
+    <string name="label_identifier">Username/Email</string>
+    <string name="label_email">Email</string>
+    <string name="label_username">Username</string>
+    <string name="label_password">Password</string>
+    <string name="offline_disabled">This feature is disabled while offline</string>
+    <string name="offline_mode">You are in offline mode: some features are disabled</string>
+    <string name="title_activity_register">Sign up</string>
+
+    <!-- ERRORS -->
+    <string name="error_body_short">Body is too short</string>
+    <string name="error_not_logged_in">You are already logged out</string>
+    <string name="error_email_invalid">Email address is invalid</string>
+    <string name="error_email_taken">Email is already in use</string>
+    <string name="error_field_required">Field is required</string>
+    <string name="error_no_internet">You are not connected to the internet</string>
+    <string name="error_password_incorrect">Password is incorrect</string>
+    <string name="error_password_invalid">Password is invalid</string>
+    <string name="error_password_match">Passwords do not match</string>
+    <string name="error_password_short">Password is too short</string>
+    <string name="error_session_missing">You have been signed out by the system</string>
+    <string name="error_title_short">Title is too short</string>
+    <string name="error_unauthorized">You are unauthorized to perform this action</string>
+    <string name="error_unknown">An unknown error occurred</string>
+    <string name="error_user_missing">User does not exist</string>
+    <string name="error_username_invalid">Username is invalid</string>
+    <string name="error_username_taken">Username is already in use</string>
+
+    <!-- HomeFragment -->
+    <string name="title_activity_home">Browse</string>
+    <string name="title_handler_nav_bar">Answer Box</string>
+    <string name="select_higher">H</string>
+    <string name="select_ordinary">O</string>
+    <string name="select_subject">Subject</string>
+    <string name="select_year">Year</string>
+
+    <!-- BrowseAnswersFragment -->
+    <string name="no_answers">There are no solutions to display</string>
+
+    <!-- PasswordActivity -->
+    <string name="button_change_pass">Change password</string>
+    <string name="label_change_pass_confirm">Confirm password</string>
+    <string name="label_change_pass_new">New password</string>
+    <string name="label_change_pass_old">Old password</string>
+    <string name="password_updated">Your password has been updated</string>
+
+    <string name="select_subject_from_spinner">Select a subject:</string>
+    <string name="select_year_from_spinner">Select a year:</string>
+
+    <!--  subject spinner HomeFragment-->
+    <string-array name="subjects">
+        <item>Accounting</item>
+        <item>Agricultural Economics</item>
+        <item>Agricultural Science</item>
+        <item>Ancient Greek</item>
+        <item>Applied Mathematics</item>
+        <item>Arabic</item>
+        <item>Art</item>
+        <item>Biology</item>
+        <item>Business</item>
+        <item>Chemistry</item>
+        <item>Classical Studies</item>
+        <item>Construction Studies</item>
+        <item>Design and Communication Graphics</item>
+        <item>Economics</item>
+        <item>Engineering</item>
+        <item>English</item>
+        <item>French</item>
+        <item>Geography</item>
+        <item>German</item>
+        <item>Hebrew Studies</item>
+        <item>History</item>
+        <item>Home Economics</item>
+        <item>Irish</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Latin</item>
+        <item>Mathematics</item>
+        <item>Music</item>
+        <item>Physics</item>
+        <item>Physics and Chemistry</item>
+        <item>Religious Education</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+        <item>Technology</item>
+    </string-array>
+
+    <!--  year spinner HomeFragment -->
+    <string-array name="year">
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+    </string-array>
+
+    <!-- bottom navigation bar -->
+    <string name="on_home">Home</string>
+    <string name="on_saved">Saved</string>
+    <string name="on_profile">Profile</string>
+
+    <!-- SubmitAnswerActivity -->
+    <string name="hint_body">Body</string>
+    <string name="hint_title">Title</string>
+    <string name="button_submit_solution">Submit solution</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

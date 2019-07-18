@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Preference android:title="Change password">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="xyz.cathal.answerbox"
+            android:targetClass="xyz.cathal.answerbox.PasswordActivity"/>
+
+    </Preference>
+
+    <PreferenceCategory
+        android:title="Other"/>
+
+    <Preference
+        android:key="logout"
+        android:title="Sign out"/>
+
+</PreferenceScreen>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTeal2">
+
+    <Spinner
+        android:id="@+id/subject_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/select_subject_textview"
+        android:background="@color/colorTeal"
+        android:popupBackground="@color/colorLightBlue" />
+
+    <Spinner
+        android:id="@+id/year_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/select_year_textview"
+        android:background="@color/colorTeal" />
+
+    <Button
+        android:id="@+id/higher_level_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginStart="50dp"
+        android:background="@color/colorTeal"
+        android:text="@string/select_higher" />
+
+    <Button
+        android:id="@+id/ordinary_level_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/higher_level_button"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="50dp"
+        android:background="@color/colorTeal"
+        android:text="@string/select_ordinary" />
+
+    <TextView
+        android:id="@+id/select_subject_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="@string/select_subject_from_spinner"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/select_year_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/subject_spinner"
+        android:padding="10dp"
+        android:text="@string/select_year_from_spinner"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>

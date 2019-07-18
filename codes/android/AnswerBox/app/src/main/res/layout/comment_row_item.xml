@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/comment_author_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="0.60"
+        android:paddingLeft="5dp"
+        android:textSize="16dp"
+        android:textColor="#00897B" />
+
+    <TextView
+        android:id="@+id/comment_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.30"
+        android:textSize="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/comment_author_name"
+        android:layout_marginStart="13dp"
+        android:layout_alignParentTop="true" />
+
+    <ImageButton
+        android:id="@+id/delete_comment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_delete_forever"
+        android:visibility="gone"/>
+
+
+</LinearLayout>
